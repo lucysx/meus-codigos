@@ -25,7 +25,6 @@ select{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    border-color: cornsilk;
     border-radius: 10px;
 }
 #n{
