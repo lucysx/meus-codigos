@@ -1,0 +1,38 @@
+body{
+    background: cornsilk;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+select{
+    background: cornsilk;
+    border-radius: 10px;
+}
+#cont{
+    background: lightsteelblue;
+    width: 600px;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-color: cornsilk;
+    border-radius: 10px;
+}
+#n{
+    background: cornsilk;
+    border-radius: 10px;
+}
+#btn{
+    background: cornsilk;
+    border-radius: 10px;
+}
