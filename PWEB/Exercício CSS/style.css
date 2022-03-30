@@ -1,0 +1,12 @@
+body{
+    background: azure;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width: 800px;
+    height: 400px;
+}
+a{
+    color: black;
+}
