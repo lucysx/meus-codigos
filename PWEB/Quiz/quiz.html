@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+    </head>
+    <body>
+        <h1>Triângulo Retângulo</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="turma">Turma:</label>
+            <input type="text" id="turma" name="turma">
+            <br><br>
+
+            <label for="questao1">1 - Qual das figuras abaixo é um triângulo retângulo?</label>
+            <br>
+            <input type="radio" id="questao1" name="t1">
+            <label for="t1"><img src="t1.png"></label>
+            <input type="radio" id="questao1" name="t2">
+            <label for="t2"><img src="t2.png"></label>
+            <input type="radio" id="questao1" name="t3">
+            <label for="t3"><img src="t3.png"></label>
+            <input type="radio" id="questao1" name="t4">
+            <label for="t4"><img src="t4.png"></label>
+            <br><br>
+
+            <label for="questao2">2 - Qual a definição de um triângulo retângulo?</label>
+            <br>
+            <textarea id="questao2" name="def"></textarea>
+            <br><br>
+
+            <label for="questao3">3 - Selecione as características de um triângulo retângulo:</label>
+            <br>
+            <input type="checkbox" id="questao3" name="carct1">
+            <label for="carct1">A hipotenusa é o maior lado.</label>
+            <br>
+            <input type="checkbox" id="questao3" name="carct2">
+            <label for="carct2">Todos os lados são catetos.</label>
+            <br>
+            <input type="checkbox" id="questao3" name="carct3">
+            <label for="carct3">Possui um ângulo reto (90°).</label>
+            <br>
+            <input type="checkbox" id="questao3" name="carct4">
+            <label for="carct4">A hipotenusa é o lado oposto ao ângulo agudo.</label>
+            <br><br>
+
+            <label for="questao4">4 - A soma dos ângulos internos de um triângulo retângulo é de:</label>
+            <select id="questao4">
+                <option value="op1">360°</option>
+                <option value="op2">300°</option>
+                <option value="op3">240°</option>
+                <option value="op4">180°</option>
+            </select>
+            <br><br>
+
+            <label for="questao5">5 - A fórmula do perímetro e da área de um triângulo retângulo são respectivamente:</label>
+            <br>
+            <input type="radio" id="questao5" name="forms1">
+            <label for="forms1">A = (b+h)/2 e P = 3*L</label>
+            <br>
+            <input type="radio" id="questao5" name="forms2">
+            <label for="forms2">A = 2(b+h) e P = 2*(L+h)</label>
+            <br>
+            <input type="radio" id="questao5" name="forms3">
+            <label for="forms3">A = (b*h)/2 e P = 3*L</label>
+            <br>
+            <input type="radio" id="questao5" name="forms4">
+            <label for="forms3">A = b*(h/2) e P = L+b </label>
+            <br><br>
+
+            <input type="submit" id="enviar" value="Enviar">
+        </form>
+    </body>
+</html>
