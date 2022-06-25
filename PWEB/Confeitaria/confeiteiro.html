@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Doce Amor · Cadastro de Produtos</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+</head>
+<body class="container pt-5 bg-info bg-opacity-10">
+    <form class="row g-3" action="inserir_produto.php" method="POST">
+        <div class="mb-3">
+            <h1 class="text-center">Cadastro de Produtos</h1>    
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Categoria</span>
+            <input type="text" class="form-control" name="categoria" aria-label="Categoria" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Descrição</span>
+            <input type="text" class="form-control" name="descricao" aria-label="Descrição" aria-describedby="inputGroup-sizing-default">
+        </div>             
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Número de Fatias</span>
+            <input type="text" class="form-control" name="numFatias" aria-label="Número de Fatias" aria-describedby="inputGroup-sizing-default">
+            <span class="input-group-text bg-light">R$</span>
+            <input type="text" class="form-control" name="valor" aria-label="Preço">
+            <span class="input-group-text">,00</span>
+        </div>    
+        <div class="input-group mb-3">
+            <label class="input-group-text bg-light" for="inputGroupFile01">Imagem</label>
+            <input class="form-control bg-light" type="file" name="foto" id="formFile">
+        </div>               
+        <div class="mb-3 d-grid gap-2 d-md-flex justify-content-md-center">
+            <button type="reset" class="btn btn-danger">Limpar</button>
+            <a href="select.php"><button type="button" class="btn btn-warning">Pesquisar</button></a>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </div> 
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>

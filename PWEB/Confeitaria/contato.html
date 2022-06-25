@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Doce Amor · Contato</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+</head>
+<body class="container pt-5 bg-info bg-opacity-10">
+<form class="row g-3" action="inserir_mensagem.php" method="POST">
+        <div class="mb-3">
+            <h1 class="text-center">Doce Amor</h1>
+            <h2 class="text-center">Contato</h2>   
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Nome</span>
+            <input type="firstName" class="form-control" name="nome" aria-label="Nome" aria-describedby="inputGroup-sizing-default">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Sobrenome</span>
+            <input type="lastName" class="form-control" name="sobrenome" aria-label="Sobrenome" aria-describedby="inputGroup-sizing-default">
+        </div>             
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">E-mail</span>
+            <input type="email" class="form-control" name="email" aria-label="E-mail" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Telefone</span>
+            <input type="text" class="form-control" name="telefone" aria-label="Telefone" aria-describedby="inputGroup-sizing-default">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Whatsapp</span>
+            <input type="text" class="form-control" name="wpp" aria-label="Telefone" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-default">Mensagem</span>
+            <textarea class="form-control" name="mensagem" aria-label="Mensagem" aria-describedby="inputGroup-sizing-default"></textarea>
+        </div>                  
+        <div class="mb-3 d-grid gap-2 d-md-flex justify-content-md-center">
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </div> 
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>
